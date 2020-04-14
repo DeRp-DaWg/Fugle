@@ -2,6 +2,13 @@
 	"folders": [
 		{
 			"path": "."
+<<<<<<< HEAD
+		},
+		{
+			"name": "Fugle",
+			"path": "Fugle"
+=======
+>>>>>>> 6d300aa6c93325956925a694bf4f6bdd874974ae
 		}
 	],
 	"settings": {}
