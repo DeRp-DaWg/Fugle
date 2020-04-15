@@ -19,3 +19,4 @@ Vi er gået i gang med at lave en database.
 Vi har også brugt tid på at få Git til at virke.  
 
 # 15-4-2020
+Vi er blevet færdige med vores Database som vi ville lave for at gøre koden i vores program mindre.  
