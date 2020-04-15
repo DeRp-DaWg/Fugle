@@ -4,7 +4,7 @@ Vi har fået oprettet vores liste af fugle vi gerne vil have ind i vores program
 Vi brainstormede de spørgsmål vi kan bruge til vores program til at finde de forksellige fugle.  
 
 # 24-3-2020
-Vi har fået hoved kraften bag vores program til at virke.  
+Vi har fået hoved kraften bag vores program til at virke, en counter som skal tælle score for fuglene.  
 Vi har sat de sidste fugle på listen og sat dem op til at virke med vores program.  
 
 # 31-3-2020
