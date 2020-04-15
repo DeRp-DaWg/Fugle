@@ -20,3 +20,4 @@ Vi har også brugt tid på at få Git til at virke.
 
 # 15-4-2020
 Vi er blevet færdige med vores Database som vi ville lave for at gøre koden i vores program mindre.  
+![database](https://github.com/DeRp-DaWg/Fugle/blob/master/Markdown/1.png)
