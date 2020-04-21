@@ -57,7 +57,7 @@ def fugle_tjekker(att,t):
             if attributes[4] == att:
                 pass
 def fugle_counter(att, t):
-    c.execute("")
+    c.execute("SELECT * FROM Fugl WHERE "+str(t)+"=")
     if  == att:
         
 
