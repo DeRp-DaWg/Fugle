@@ -24,3 +24,4 @@ Vi er blevet færdige med vores Database som vi ville lave for at gøre koden i 
 
 # 21-4-2020
 Vi har fået vores Git integration til at virke.  
+Vi har også bare generalt skrevet videre.  
