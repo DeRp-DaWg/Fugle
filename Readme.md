@@ -29,3 +29,4 @@ Vi fik også dannet en python fil ved navn test, som vi vil bruge til at teste d
 
 # 22-4-2020
 Vi har generalt skrevet videre.  
+Vi har også fået mere styr på vores SQL.  
