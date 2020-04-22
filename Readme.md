@@ -30,3 +30,4 @@ Vi fik også dannet en python fil ved navn test, som vi vil bruge til at teste d
 # 22-4-2020
 Vi har generalt skrevet videre.  
 Vi har også fået mere styr på vores SQL.  
+Vi har dannet en SQL Template sætning som vi kan bruge til at forhåbligvis lave noget hurtigt arbejde næste gang.  
