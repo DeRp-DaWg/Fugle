@@ -25,3 +25,8 @@ Vi er blevet færdige med vores Database som vi ville lave for at gøre koden i 
 # 21-4-2020
 Vi har fået vores Git integration til at virke.  
 Vi har også bare generalt skrevet videre.  
+Vi fik også dannet en python fil ved navn test, som vi vil bruge til at teste dele af vores kode.  
+
+# 22-4-2020
+Vi har generalt skrevet videre.  
+Vi har også fået mere styr på vores SQL.  
