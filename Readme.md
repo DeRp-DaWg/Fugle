@@ -31,3 +31,7 @@ Vi fik også dannet en python fil ved navn test, som vi vil bruge til at teste d
 Vi har generalt skrevet videre.  
 Vi har også fået mere styr på vores SQL.  
 Vi har dannet en SQL Template sætning som vi kan bruge til at forhåbligvis lave noget hurtigt arbejde næste gang.  
+
+# 28-4-2020
+Vi har dannet vores score system så det kan blive arbejdet videre på næste gang.  
+Vi er begyndt at lave vores GUI til programmet.  
