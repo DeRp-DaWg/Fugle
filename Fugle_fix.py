@@ -36,12 +36,31 @@ farver = [
     "Sort",
     "Hvid",
     "Rød",
-    "Blå",
-    "Gul",
     "Brun",
     "Grå"
 ]
 
+score = {
+    "Blåmejse": 0,
+    "Blishøne": 0,
+    "Bogfinke": 0,
+    "Fasan": 0,
+    "Fiskehejre": 0,
+    "Gråand": 0,
+    "Grågås": 0,
+    "Gråkrage": 0,
+    "Hættemåge": 0,
+    "Husskade": 0,
+    "Hvid_vipstjert": 0,
+    "Klippedue": 0,
+    "Knopsvane": 0,
+    "Musvit": 0,
+    "Ringdue": 0,
+    "Skarv": 0,
+    "Skovspurv": 0,
+    "Solsort": 0,
+    "Sølvmåge": 0
+}
 
 def fugle_tjekker(att,t):
     if att == fødder:
@@ -57,10 +76,36 @@ def fugle_tjekker(att,t):
             if attributes[4] == att:
                 pass
 def fugle_counter(att, t):
-    c.execute("SELECT * FROM Fugl WHERE "+str(t)+"=")
-    if  == att:
-        
+    sql = ("SELECT Fugl FROM Fugle WHERE "+str(t)+"='"+str(att)+"'")
+    var = c.execute(sql)
+    for row in c:
+        score[row[0]] = score.get(row[0], 0) + 1
+    print(score)
 
+while True:
+    print("Hvordan ser fuglens fødder ud?")
+    print("Svømmefødder, Kløer")
+    fødder = input("")
+    if fødder == "exit":
+        break
+    fugle_counter(fødder, "Fod")
+    
+    print("Hvordan ser fuglens næb ud?")
+    print("Næb, Andenæb")
+    næb = input("")
+    if næb == "exit":
+        break
+    fugle_counter(næb, "Næb")
+    
+    print("Hvordan ser fuglens størrelse ud?")
+    print("Stor, Mellem, Lille")
+    størrelse = input("")
+    if størrelse == "exit":
+        break
+    fugle_counter(størrelse, "Størrelse")
+    break
+
+    
 #def fugle_counter(att, t):
 #    blåmejse_c = 0
 #    blishøne_c = 0
@@ -170,10 +215,10 @@ def fugle_score(att, t):
 #        "count": 0
 #    }
 
-for i in farver():
-    print(farver)
-    farver = input("")
-    if farver == "Blå, Gul, Sort, Hvid, Rød, Blå, Gul, Brun, Grå":
-        continue
-    if farver == "Det var det":
-        break
+#for i in farver():
+#    print(farver)
+#    farver = input("")
+#    if farver == "Blå, Gul, Sort, Hvid, Rød, Blå, Gul, Brun, Grå":
+#        continue
+#    if farver == "Det var det":
+#        break
