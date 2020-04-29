@@ -39,7 +39,6 @@ farver = [
     "Brun",
     "Grå"
 ]
-
 score = {
     "Blåmejse": 0,
     "Blishøne": 0,
@@ -76,11 +75,16 @@ def fugle_tjekker(att,t):
             if attributes[4] == att:
                 pass
 def fugle_counter(att, t):
-    sql = ("SELECT Fugl FROM Fugle WHERE "+str(t)+"='"+str(att)+"'")
-    var = c.execute(sql)
+    order66 = ("SELECT Fugl FROM Fugle WHERE "+str(t)+"='"+str(att)+"'")
+    var = c.execute(order66)
     for row in c:
         score[row[0]] = score.get(row[0], 0) + 1
     print(score)
+def fugle_counter_special(att, t):
+    order66 = ("SELECT Fugl FROM Fugle WHERE "+str(t)+" LIKE '%"+str(att)+"%'")
+    var = c.execute(order66)
+    for row in c:
+        score[row[0]] = score.get(row[0], 0) + 1
 
 while True:
     print("Hvordan ser fuglens fødder ud?")
@@ -103,7 +107,19 @@ while True:
     if størrelse == "exit":
         break
     fugle_counter(størrelse, "Størrelse")
+    
+    while True:
+        print("Hvilke farver har fuglen?")
+        print("Blå, Gul, Sort, Hvid, Rød, Brun, Grå (Vælg en af gangen)")
+        print("Hvis fuglen ikke har flere, så skriv nej")
+        farve = input("")
+        if farve == "exit":
+            break
+        elif farve == "nej":
+            break
+        fugle_counter_special(farve, "Farve")
     break
+print(score)
 
     
 #def fugle_counter(att, t):
