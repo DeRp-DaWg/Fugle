@@ -35,3 +35,7 @@ Vi har dannet en SQL Template sætning som vi kan bruge til at forhåbligvis lav
 # 28-4-2020
 Vi har dannet vores score system så det kan blive arbejdet videre på næste gang.  
 Vi er begyndt at lave vores GUI til programmet.  
+
+# 29-4-2020
+Vi har lavet vores GUI.  
+Vi har updateret vores score system til nu også at kunne tage farver.  
