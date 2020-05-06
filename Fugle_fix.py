@@ -79,7 +79,6 @@ def fugle_counter(att, t):
     var = c.execute(order66)
     for row in c:
         score[row[0]] = score.get(row[0], 0) + 1
-    print(score)
 def fugle_counter_special(att, t):
     order66 = ("SELECT Fugl FROM Fugle WHERE "+str(t)+" LIKE '%"+str(att)+"%'")
     var = c.execute(order66)
