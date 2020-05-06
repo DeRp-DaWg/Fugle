@@ -61,19 +61,6 @@ score = {
     "Sølvmåge": 0
 }
 
-def fugle_tjekker(att,t):
-    if att == fødder:
-        for i in attributes:
-            if attributes[0] == att:
-                pass
-            if attributes[1] == att:
-                pass
-            if attributes[2] == att:
-                pass
-            if attributes[3] == att:
-                pass
-            if attributes[4] == att:
-                pass
 def fugle_counter(att, t):
     order66 = ("SELECT Fugl FROM Fugle WHERE "+str(t)+"='"+str(att)+"'")
     var = c.execute(order66)
@@ -120,7 +107,7 @@ while True:
     break
 print(score)
 
-    
+
 #def fugle_counter(att, t):
 #    blåmejse_c = 0
 #    blishøne_c = 0
@@ -202,9 +189,6 @@ print(score)
 #    return(count, blåmejse_c, blishøne_c, bogfinke_c, fasan_c, fiskehejre_c, gråand_c, grågås_c,
 #           gråkrage_c, hættemåge_c, husskade_c, hvid_vipstjert_c, klippedue_c, knopsvane_c, musvit_c,
 #           ringdue_c, skarv_c, skovspurv_c, solsort_c, sølvmåge_c)
-
-def fugle_score(att, t):
-    pass
 
 #for i in range(1,2):
 #    fugle_dict = {
